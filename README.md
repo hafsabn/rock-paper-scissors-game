@@ -1,7 +1,8 @@
 # rock-paper-scissors-game
 ## Description
 
-This is a simple graphical implementation of the classic game "Rock, Paper, Scissors." In this game.
+This is a simple graphical implementation of the classic game "Rock, Paper, Scissors".
+
 To play the game click [here](https://hafsabn.github.io/rock-paper-scissors-game/)
 
 ## Features
