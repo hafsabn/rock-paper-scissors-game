@@ -13,6 +13,8 @@ let playerScore = 0;
 function playRound(playerSelection, computerSelection) {
     if (playerSelection.toLowerCase() == computerSelection.toLowerCase()) {
         setRoundResult("TIE!");
+        setCounts(computerScore);
+        setCounts(playerScore);
     } else if ((playerSelection.toLowerCase() == "rock" & computerSelection.toLowerCase() == "paper") || (playerSelection.toLowerCase() == "paper" & computerSelection.toLowerCase() == "scissors") || (playerSelection.toLowerCase() == "scissors" & computerSelection.toLowerCase() == "rock")) {
         setRoundResult("you lose");
         setCounts(++computerScore);
