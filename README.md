@@ -11,5 +11,5 @@ This is a simple graphical implementation of the classic game "Rock, Paper, Scis
 
 ## Image Credits
 
-Illustrations of Rock, Paper, Scissors and background by [Sam Perera](https://www.behance.net/brandsbysam), source: [illustrations](https://www.behance.net/gallery/55030205/Rock-Paper-Scissors-Logo-Design)
+Illustrations of Rock, Paper, Scissors and the background by [Sam Perera](https://www.behance.net/brandsbysam), source: [illustrations](https://www.behance.net/gallery/55030205/Rock-Paper-Scissors-Logo-Design)
 
