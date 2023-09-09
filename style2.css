@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lalezar', cursive;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+h1{
+    text-align: center;
+    color: #00CAE5;
+    font-size: 70px;
+}
+.elements{
+    align-self: center;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.elements > img{
+    cursor: pointer;
+    width: 300px;
+    height: 316px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 10%; 
+
+}
+.userPart , .computerPart {
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.userPart p, .computerPart p{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(6, 6, 6);
+}
+.roundResult{
+    align-self: center;
+}
+.roundResult p{
+    font-size: 40px;
+    text-align: center;
+    width: 200px;
+}
+.noneBtn{
+    display: none; 
+}
+.displayBtn{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.841);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+    width: 250px;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F8C900;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+.popUp {
+    width: 500px;
+    height: 200px;
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px 0px #DDDDDD;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+.finalResult{
+    font-size: 50px;
+}
+
+footer{
+    background-color: #D9D9D9;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+footer a{
+    color: #00CAE5;
+}
