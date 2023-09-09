@@ -3,7 +3,7 @@
 
 This is a simple graphical implementation of the classic game "Rock, Paper, Scissors".
 
-To play the game click [here](https://hafsabn.github.io/rock-paper-scissors-game/)
+To access the game click [here](https://hafsabn.github.io/rock-paper-scissors-game/)
 
 ## Features
 - User-Friendly GUI: The game provides an intuitive graphical interface with buttons for making selections.
